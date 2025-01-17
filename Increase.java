@@ -15,7 +15,7 @@ public class Increase {
             }
         }
         for (int i = 1; i < n; i++) {
-            for (int j = 4; j >= i; j--) {
+            for (int j = n-i; j >= i; j--) {
                 System.out.print(j + " ");
             }
             break;

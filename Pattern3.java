@@ -18,11 +18,11 @@ public class Pattern3 {
             }
             System.out.println();
         }
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<n;i++){
             for(int spaces=1;spaces<=n-i-1;spaces++){
                 System.out.print(" ");
             }
-            for(int j=n-i;j<=n-i;j++){
+            for(int j=n-i;j==n-i;j--){
                 System.out.print(j+" ");
             }
             System.out.println();
